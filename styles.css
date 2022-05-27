@@ -11,6 +11,13 @@ margin-left: auto;
 margin:auto;
 }
 
+main{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
 p{
   font-size: 13px;
   color:hsl(220, 15%, 55%);
@@ -25,9 +32,6 @@ p{
   height:370px;
   background-color: white;
   border-radius: 10px;
-  margin:auto;
-  margin-top:90px;
-  margin-bottom: 90px;
   overflow: hidden;
 }
 
